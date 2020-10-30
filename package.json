@@ -4,8 +4,8 @@
   "description": "This Repo contains all the materials regarding the WEB VR/AR session at CIS Fortnight Meetup.",
   "main": "index.js",
   "scripts": {
-    "build":"webpack",
-    "dev":"webpack serve",
+    "build": "webpack",
+    "dev": "webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/Yasirunet/cis-fortnight-vr#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
     "webpack": "^5.2.0",
     "webpack-cli": "^4.1.0",
     "webpack-dev-server": "^3.11.0"
